@@ -127,7 +127,7 @@ def button_equals():
        
 #------creating widgets and GUI window components------
 #generating window title
-window.title("My first python application")
+window.title("calculator")
 
 #creating an input field like editText in android in application
 #width will allow us to make the input editText larger across x axis
