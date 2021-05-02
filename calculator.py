@@ -1,5 +1,6 @@
 from tkinter import *
-
+#import message box to create a pop up window of information display type
+from tkinter import messagebox
 window = Tk()
 
 #--------writing the actual logic inside the functions-------------
@@ -184,5 +185,14 @@ buttonDivide.grid(row=4,column=3)
 
 buttonEquals.grid(row=5,column=3)
 buttonClear.grid(row=5,column=2)
+
+#creating a function for our pop up window
+def dev():
+    #create a message box showinfo will just show some kind of information on the pop up window it is not interactive
+    #showinfo("the title bar that you want to show up", message that you want to show in your actual pop up window)
+    messagebox.showinfo("developer info", "Name = Aditya Kumar \n class = B.tech 2nd year \n college = SITM \n Roll number = 1901230100001")
+
+#now here we are going to create a button which when clicked will trigger a popup window
+ButtonDev = Button(window,text="Developer information",command = dev).grid(row=6,column=0,columnspan=4, padx = 20, pady=20)
 
 window.mainloop()
