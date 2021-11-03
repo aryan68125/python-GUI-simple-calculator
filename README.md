@@ -1,6 +1,5 @@
 # python-GUI-simple-calculator
-this application uses tkinter and python its a very basic calculator
-You can download the executable file which runs on a double click from the demo link provided in this repo
+This is a simple calculator using python and Tkinter.
 
 NOTE:- 
 1. The executables only run on windows
