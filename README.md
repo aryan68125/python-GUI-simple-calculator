@@ -6,6 +6,7 @@ NOTE:-
 2. Your google chrome browser may prompt you to not keep the file after the download is complete you need to select keep anyway option
 3. you may need to run anyway option while running this file for the first time 
 4. Feel free to cheeck the source code you have trust issue regarding this app I made
+5. You can download the exe file from the releases section
 
 here are some preview images:-
 ![](one.png)
